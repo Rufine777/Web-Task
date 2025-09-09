@@ -13,15 +13,46 @@
     <h1>Student Grade Tracker</h1>
   </header>
 
+  <!-- Grade Table -->
   <section class="grades">
     <h2>Current Grades</h2>
-    <!-- Add the code for Table here -->
+    <table>
+      <tr>
+        <th>Subject</th>
+        <th>Grade</th>
+      </tr>
+      <tr>
+        <td>Math</td>
+        <td>A</td>
+      </tr>
+      <tr>
+        <td>Science</td>
+        <td>B+</td>
+      </tr>
+      <tr>
+        <td>English</td>
+        <td>A-</td>
+      </tr>
+    </table>
   </section>
 
+  <!-- Form to Add New Grade -->
   <section class="form-section">
     <h2>Add New Grade</h2>
-    <!-- Add the code for form here -->
+    <form>
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" placeholder="Enter subject" required>
+
+      <label for="grade">Grade:</label>
+      <input type="text" id="grade" placeholder="Enter grade (e.g. A+)" required>
+
+      <button type="submit">Add Grade</button>
+    </form>
   </section>
+
+  <footer>
+    <p>&copy; 2025 Grade Tracker App</p>
+  </footer>
 </body>
 
 </html>
